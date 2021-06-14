@@ -1,0 +1,1672 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Shipment Tracking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-19 10:42+0000\n"
+"PO-Revision-Date: 2020-06-19 11:26+0000\n"
+"Last-Translator: John\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: woocommerce-advanced-shipment-tracking.php:125
+#, php-format
+msgid ""
+"Please install and activate %sWooCommerce%s for WooCommerce Advanced "
+"Shipment Tracking!"
+msgstr ""
+"¡Instale y active% sWooCommerce% s para el seguimiento de envío avanzado de "
+"WooCommerce!"
+
+#: woocommerce-advanced-shipment-tracking.php:430
+#: includes/views/admin_options_settings.php:212
+#, php-format
+msgid ""
+"<strong>Note:</strong> - If you use the custom order status, when you "
+"deactivate the plugin, you must register the order status, otherwise these "
+"orders will not display on your orders admin. You can find more information "
+"and the code <a href=\"%s\" target=\"blank\">snippet</a> to use in functions."
+"php here."
+msgstr ""
+"Nota: - Si utiliza el estado del pedido personalizado, cuando desactiva el "
+"complemento, debe registrar el estado del pedido, de lo contrario, estos "
+"pedidos no se mostrarán en el administrador de sus pedidos. Puede encontrar "
+"más información y el fragmento de código para usar en functions.php aquí.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:158
+#: includes/class-wc-advanced-shipment-tracking-front.php:358
+#: includes/class-wc-advanced-shipment-tracking-front.php:384
+#: includes/class-wc-advanced-shipment-tracking-front.php:411
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+"Para rastrear su pedido, ingrese su número de pedido en el cuadro a "
+"continuación y presione el botón \"Rastrear\". Esto se le entregó en su "
+"recibo y en el correo electrónico de confirmación que debería haber recibido."
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:159
+#: includes/class-wc-advanced-shipment-tracking-front.php:160
+#: includes/class-wc-advanced-shipment-tracking-front.php:359
+#: includes/class-wc-advanced-shipment-tracking-front.php:360
+#: includes/class-wc-advanced-shipment-tracking-front.php:385
+#: includes/class-wc-advanced-shipment-tracking-front.php:386
+#: includes/class-wc-advanced-shipment-tracking-front.php:412
+#: includes/class-wc-advanced-shipment-tracking-front.php:413
+msgid "Found in your order confirmation email."
+msgstr ""
+"Encontrado en tu email de confirmación de orden.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:160
+#: includes/class-wc-advanced-shipment-tracking-front.php:360
+#: includes/class-wc-advanced-shipment-tracking-front.php:386
+#: includes/class-wc-advanced-shipment-tracking-front.php:413
+msgid "Order Email"
+msgstr "Correo electrónico:"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:163
+#: includes/class-wc-advanced-shipment-tracking-front.php:363
+#: includes/class-wc-advanced-shipment-tracking-front.php:389
+#: includes/class-wc-advanced-shipment-tracking-front.php:416
+#: includes/class-wc-advanced-shipment-tracking.php:688
+#: includes/customizer/class-wc-tracking-info-customizer.php:148
+#: includes/customizer/class-wc-tracking-info-customizer.php:676
+#: templates/emails/tracking-info.php:320
+#: templates/myaccount/tracking-info.php:244
+msgid "Track"
+msgstr "Rastrear"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:250
+#: includes/class-wc-advanced-shipment-tracking-front.php:267
+#: includes/class-wc-advanced-shipment-tracking-front.php:493
+#: includes/class-wc-advanced-shipment-tracking-front.php:510
+#, php-format
+msgid "Shipment - %s (out of %s)"
+msgstr ""
+"Envío -% s (de% s)\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:283
+#: includes/class-wc-advanced-shipment-tracking-front.php:526
+msgid "Tracking details not found in TrackShip"
+msgstr ""
+"Detalles de seguimiento no encontrados en TrackShip\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:364
+msgid "Order not found."
+msgstr "Orden no encontrada."
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:417
+msgid "Tracking details not found."
+msgstr "Detalles de seguimiento no encontrados."
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:569
+#: includes/class-wc-advanced-shipment-tracking-front.php:599
+#: includes/class-wc-advanced-shipment-tracking-front.php:986
+#: includes/class-wc-advanced-shipment-tracking-front.php:1004
+#: includes/class-wc-advanced-shipment-tracking-front.php:1139
+#: includes/class-wc-advanced-shipment-tracking-front.php:1157
+msgid "Est. Delivery Date"
+msgstr ""
+"Est. Fecha de entrega\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:738
+#: includes/class-wc-advanced-shipment-tracking-front.php:828
+msgid "Tracking Details"
+msgstr "Detalles de seguimiento"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:819
+#: includes/class-wc-advanced-shipment-tracking-front.php:909
+#: includes/class-wc-advanced-shipment-tracking-front.php:1128
+#: includes/class-wc-advanced-shipment-tracking-front.php:1242
+msgid "view more"
+msgstr "ver más"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:820
+#: includes/class-wc-advanced-shipment-tracking-front.php:910
+#: includes/class-wc-advanced-shipment-tracking-front.php:1129
+#: includes/class-wc-advanced-shipment-tracking-front.php:1243
+msgid "view less"
+msgstr "ver menos"
+
+#: includes/class-wc-advanced-shipment-tracking.php:141
+#: includes/class-wc-advanced-shipment-tracking.php:214
+msgid "Shipment Tracking"
+msgstr "rastreo de envío"
+
+#: includes/class-wc-advanced-shipment-tracking.php:230
+#: includes/class-wc-advanced-shipment-tracking.php:445
+msgid "Track Shipment"
+msgstr ""
+"Rastrear envio\n"
+
+#. 1: shipping date
+#: includes/class-wc-advanced-shipment-tracking.php:241
+#, php-format
+msgid "Shipped on %s"
+msgstr "Enviado en% s"
+
+#: includes/class-wc-advanced-shipment-tracking.php:344
+#: includes/class-wc-advanced-shipment-tracking-settings.php:450
+msgid "Mark as Shipped?"
+msgstr ""
+"¿Marcar como enviado?\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:347
+#: includes/class-wc-advanced-shipment-tracking-settings.php:453
+msgid "Mark as Completed?"
+msgstr ""
+"¿Marcar como completado?\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:359
+msgid "Add Tracking Info"
+msgstr "Agregar información de seguimiento"
+
+#: includes/class-wc-advanced-shipment-tracking.php:363
+#: includes/class-wc-advanced-shipment-tracking-settings.php:465
+#: includes/class-wc-advanced-shipment-tracking-settings.php:467
+msgid "Shipping Provider:"
+msgstr "Proveedor de envío:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:364
+msgid "Select Provider"
+msgstr "Seleccionar Proveedor"
+
+#: includes/class-wc-advanced-shipment-tracking.php:400
+#: includes/class-wc-advanced-shipment-tracking-settings.php:487
+msgid "Tracking number:"
+msgstr "El número de rastreo:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:407
+#: includes/class-wc-advanced-shipment-tracking-settings.php:491
+msgid "Product Code:"
+msgstr "Código de producto:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:415
+#: includes/class-wc-advanced-shipment-tracking-settings.php:495
+msgid "Date shipped:"
+msgstr "Fecha de envío:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:428
+#: includes/class-wc-advanced-shipment-tracking-settings.php:505
+msgid "Mark order as:"
+msgstr ""
+"Marcar orden como:\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:431
+#: includes/class-wc-advanced-shipment-tracking-settings.php:508
+msgid "Partial Shipped"
+msgstr ""
+"Envio parcial\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:444
+#: includes/class-wc-advanced-shipment-tracking-settings.php:520
+msgid "Save Tracking"
+msgstr "Guardar seguimiento"
+
+#: includes/class-wc-advanced-shipment-tracking.php:445
+msgid "Preview:"
+msgstr "Avance:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:662
+#, php-format
+msgid ""
+"Tracking info was deleted for tracking provider %s with tracking number %s"
+msgstr ""
+"La información de seguimiento se eliminó para el proveedor de seguimiento% s "
+"con el número de seguimiento% s\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:1009
+#: includes/class-wc-advanced-shipment-tracking.php:1094
+#, php-format
+msgid "Order was shipped with %s and tracking number is: %s"
+msgstr ""
+"El pedido se envió con% sy el número de seguimiento es:% s\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:137
+#: includes/class-wc-advanced-shipment-tracking-settings.php:182
+#: includes/customizer/class-wcast-customizer.php:187
+#: includes/customizer/class-wc-delivered-email-customizer.php:125
+#: includes/views/admin_options_settings.php:86
+#: includes/views/admin_status_notifications.php:105
+msgid "Delivered"
+msgstr "Entregado"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:142
+#, php-format
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural "Delivered <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"Entregado <span class=\"count\">(%s)</span>\n"
+msgstr[1] ""
+"Entregado <span class=\"count\">(%s)</span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:151
+#: includes/class-wc-advanced-shipment-tracking-settings.php:197
+#: includes/views/admin_options_settings.php:169
+msgid "Updated Tracking"
+msgstr ""
+"Seguimiento actualizado\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:156
+#, php-format
+msgid "Updated Tracking <span class=\"count\">(%s)</span>"
+msgid_plural "Updated Tracking <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"Seguimiento actualizado <span class=\"count\">(%s)</span>\n"
+msgstr[1] ""
+"Seguimiento actualizado <span class=\"count\">(%s)</span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:165
+#: includes/class-wc-advanced-shipment-tracking-settings.php:211
+#: includes/views/admin_options_settings.php:128
+msgid "Partially Shipped"
+msgstr ""
+"Parcialmente Enviado\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:170
+#, php-format
+msgid "Partially Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"Enviado parcialmente <span class=\"count\">(%s)</span>\n"
+msgstr[1] ""
+"Enviado parcialmente <span class=\"count\">(%s)</span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:306
+#: includes/class-wc-advanced-shipment-tracking-settings.php:451
+msgid "Shipped"
+msgstr "Enviada"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:323
+#, php-format
+msgid "Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"Enviado <span class=\"count\">(%s)</span>\n"
+msgstr[1] ""
+"Enviado <span class=\"count\">(%s)</span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:337
+msgid "Change status to shipped"
+msgstr ""
+"Cambiar estado a enviado\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:454
+msgid "Completed"
+msgstr "Terminada"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:462
+msgid "Add Tracking Number"
+msgstr ""
+"Agregar número de seguimiento\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:535
+msgid "Resend delivered order notification"
+msgstr ""
+"Reenviar notificación de pedido entregado\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:761
+msgid "Shipment Providers"
+msgstr ""
+"Proveedores de envíos\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:764
+#: templates/emails/tracking-info.php:219
+#: templates/emails/tracking-info.php:249
+msgid "Shipment Status"
+msgstr ""
+"Estado del envío\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:767
+msgid "Tracking issues"
+msgstr ""
+"Problemas de seguimiento\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:773
+#: includes/class-wc-advanced-shipment-tracking-settings.php:781
+#: includes/class-wc-advanced-shipment-tracking-settings.php:798
+msgid "data not available."
+msgstr ""
+"informacion no disponible.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:804
+msgid "View more on TrackShip"
+msgstr ""
+"Ver más en TrackShip\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1001
+msgid "There are some issue with sync, Please Retry."
+msgstr ""
+"Hay algún problema con la sincronización. Vuelva a intentarlo.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1016
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1031
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1046
+msgid "view details"
+msgstr ""
+"ver detalles\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1017
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1032
+#: includes/class-wc-advanced-shipment-tracking-settings.php:1047
+msgid "hide details"
+msgstr ""
+"ocultar detalles\n"
+
+#: includes/customizer/class-wcast-customizer.php:32
+#: includes/customizer/class-wcast-customizer.php:103
+msgid "Tracking info display"
+msgstr ""
+"Pantalla de información de seguimiento\n"
+
+#: includes/customizer/class-wcast-customizer.php:42
+msgid "Order Status Emails"
+msgstr "Correos electrónicos de estado del pedido"
+
+#: includes/customizer/class-wcast-customizer.php:51
+msgid "Shipment Status Emails"
+msgstr "Correos electrónicos de estado de envío"
+
+#: includes/customizer/class-wcast-customizer.php:58
+msgid "Admin Notifications"
+msgstr "Notificaciones de administrador"
+
+#: includes/customizer/class-wcast-customizer.php:71
+#: includes/views/admin_options_settings.php:15
+#: includes/views/admin_trackship_dashboard.php:30
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: includes/customizer/class-wcast-customizer.php:79
+msgid "Table layout design"
+msgstr "Diseño de la mesa"
+
+#: includes/customizer/class-wcast-customizer.php:87
+msgid "Simple layout design"
+msgstr "Diseño de diseño simple"
+
+#: includes/customizer/class-wcast-customizer.php:111
+#: includes/customizer/class-wc-email-customizer.php:163
+msgid "Delivered order status email"
+msgstr ""
+"Correo electrónico del estado del pedido entregado\n"
+
+#: includes/customizer/class-wcast-customizer.php:118
+msgid "Completed order status email"
+msgstr "Correo electrónico de estado de pedido completado"
+
+#: includes/customizer/class-wcast-customizer.php:125
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:143
+msgid "Partially Shipped status email"
+msgstr ""
+"Correo electrónico de estado enviado parcialmente\n"
+
+#: includes/customizer/class-wcast-customizer.php:133
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:143
+msgid "Updated Tracking status email"
+msgstr ""
+"Correo electrónico actualizado del estado de seguimiento\n"
+
+#: includes/customizer/class-wcast-customizer.php:141
+msgid "Pre Transit"
+msgstr ""
+"Pre tránsito\n"
+
+#: includes/customizer/class-wcast-customizer.php:149
+#: includes/customizer/class-wc-intransit-email-customizer.php:127
+#: includes/views/admin_status_notifications.php:36
+msgid "In Transit"
+msgstr ""
+"En tránsito\n"
+
+#: includes/customizer/class-wcast-customizer.php:157
+#: includes/customizer/class-wc-onhold-email-customizer.php:127
+#: includes/views/admin_status_notifications.php:50
+msgid "On Hold"
+msgstr "En espera"
+
+#: includes/customizer/class-wcast-customizer.php:165
+#: includes/customizer/class-wc-returntosender-email-customizer.php:124
+#: includes/views/admin_status_notifications.php:64
+msgid "Return To Sender"
+msgstr ""
+"Devolver al remitente\n"
+
+#: includes/customizer/class-wcast-customizer.php:172
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:124
+#: includes/views/admin_status_notifications.php:78
+msgid "Available For Pickup"
+msgstr ""
+"Disponible para envíos\n"
+
+#: includes/customizer/class-wcast-customizer.php:179
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:126
+#: includes/views/admin_status_notifications.php:91
+msgid "Out For Delivery"
+msgstr ""
+"Fuera de Entrega\n"
+
+#: includes/customizer/class-wcast-customizer.php:195
+#: includes/customizer/class-wc-failure-email-customizer.php:124
+#: includes/views/admin_status_notifications.php:120
+msgid "Failed Attempt"
+msgstr "Intento fallido"
+
+#: includes/customizer/class-wcast-customizer.php:203
+#: includes/views/admin_status_notifications.php:141
+msgid "Late Shipments"
+msgstr "Envíos tardíos"
+
+#: includes/customizer/class-wcast-customizer.php:507
+msgid "Select order to preview"
+msgstr ""
+"Seleccione el orden para previsualizar\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:123
+msgid "Your order #{order_number} is available for pickup"
+msgstr ""
+"Su pedido # {order_number} está disponible para ser recogido\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:125
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is available for pickup."
+msgstr ""
+"Hola. pensamos que te gustaría saber que tu pedido reciente de {site_title} "
+"está disponible para ser recogido.\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:157
+msgid "Available For Pickup shipment status email"
+msgstr ""
+"Disponible para el estado de envío de recogida de correo electrónico\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:158
+#: includes/customizer/class-wc-delivered-email-customizer.php:159
+#: includes/customizer/class-wc-email-customizer.php:164
+#: includes/customizer/class-wc-failure-email-customizer.php:158
+#: includes/customizer/class-wc-intransit-email-customizer.php:161
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:160
+#: includes/customizer/class-wc-returntosender-email-customizer.php:158
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:144
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:144
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:162
+#: includes/customizer/class-wc-onhold-email-customizer.php:161
+msgid "This section lets you customize the Email Content."
+msgstr ""
+"Esta sección le permite personalizar el contenido del correo electrónico.\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:173
+msgid "Enable Available For Pickup shipment status email"
+msgstr ""
+"Habilitar disponible para correo electrónico de estado de envío de recogida"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:189
+#: includes/customizer/class-wc-delivered-email-customizer.php:190
+#: includes/customizer/class-wc-email-customizer.php:197
+#: includes/customizer/class-wc-failure-email-customizer.php:189
+#: includes/customizer/class-wc-intransit-email-customizer.php:193
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:191
+#: includes/customizer/class-wc-returntosender-email-customizer.php:189
+#: includes/customizer/class-wc-tracking-info-customizer.php:185
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:177
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:177
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:176
+#: includes/customizer/class-wc-onhold-email-customizer.php:193
+msgid "Preview order"
+msgstr ""
+"Orden de previsualización\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:218
+#: includes/customizer/class-wc-delivered-email-customizer.php:219
+#: includes/customizer/class-wc-email-customizer.php:226
+#: includes/customizer/class-wc-failure-email-customizer.php:218
+#: includes/customizer/class-wc-intransit-email-customizer.php:222
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:220
+#: includes/customizer/class-wc-returntosender-email-customizer.php:218
+#: includes/customizer/class-wc-onhold-email-customizer.php:222
+msgid "E.g. {customer.email}, admin@example.org"
+msgstr "Por ejemplo, {customer.email}, admin@example.org"
+
+#. %s: list of placeholders
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:235
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:258
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:393
+#: includes/customizer/class-wc-delivered-email-customizer.php:236
+#: includes/customizer/class-wc-delivered-email-customizer.php:259
+#: includes/customizer/class-wc-delivered-email-customizer.php:395
+#: includes/customizer/class-wc-email-customizer.php:243
+#: includes/customizer/class-wc-email-customizer.php:266
+#: includes/customizer/class-wc-email-customizer.php:290
+#: includes/customizer/class-wc-email-customizer.php:421
+#: includes/customizer/class-wc-failure-email-customizer.php:235
+#: includes/customizer/class-wc-failure-email-customizer.php:258
+#: includes/customizer/class-wc-failure-email-customizer.php:394
+#: includes/customizer/class-wc-intransit-email-customizer.php:239
+#: includes/customizer/class-wc-intransit-email-customizer.php:262
+#: includes/customizer/class-wc-intransit-email-customizer.php:398
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:237
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:260
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:396
+#: includes/customizer/class-wc-returntosender-email-customizer.php:235
+#: includes/customizer/class-wc-returntosender-email-customizer.php:258
+#: includes/customizer/class-wc-returntosender-email-customizer.php:393
+#: includes/customizer/class-wc-tracking-info-customizer.php:372
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:200
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:223
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:247
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:266
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:200
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:223
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:247
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:266
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:257
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:280
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:392
+#: includes/customizer/class-wc-onhold-email-customizer.php:239
+#: includes/customizer/class-wc-onhold-email-customizer.php:262
+#: includes/customizer/class-wc-onhold-email-customizer.php:398
+#: includes/emails/class-shipment-delivered-email.php:274
+#: includes/emails/class-shipment-delivered-email.php:283
+msgid "Available variables:"
+msgstr "Variables disponibles:"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:280
+#: includes/customizer/class-wc-delivered-email-customizer.php:281
+#: includes/customizer/class-wc-failure-email-customizer.php:280
+#: includes/customizer/class-wc-intransit-email-customizer.php:284
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:282
+#: includes/customizer/class-wc-returntosender-email-customizer.php:280
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:301
+#: includes/customizer/class-wc-onhold-email-customizer.php:284
+msgid "Show tracking details"
+msgstr ""
+"Mostrar detalles de seguimiento\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:297
+#: includes/customizer/class-wc-delivered-email-customizer.php:298
+#: includes/customizer/class-wc-failure-email-customizer.php:297
+#: includes/customizer/class-wc-intransit-email-customizer.php:301
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:299
+#: includes/customizer/class-wc-returntosender-email-customizer.php:297
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:318
+#: includes/customizer/class-wc-onhold-email-customizer.php:301
+msgid "Show order details"
+msgstr ""
+"Mostrar detalles del pedido\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:314
+#: includes/customizer/class-wc-delivered-email-customizer.php:315
+#: includes/customizer/class-wc-failure-email-customizer.php:314
+#: includes/customizer/class-wc-intransit-email-customizer.php:318
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:316
+#: includes/customizer/class-wc-returntosender-email-customizer.php:314
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:335
+#: includes/customizer/class-wc-onhold-email-customizer.php:318
+msgid "Show billing address"
+msgstr ""
+"Mostrar dirección de facturación\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:332
+#: includes/customizer/class-wc-delivered-email-customizer.php:333
+#: includes/customizer/class-wc-failure-email-customizer.php:332
+#: includes/customizer/class-wc-intransit-email-customizer.php:336
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:334
+#: includes/customizer/class-wc-returntosender-email-customizer.php:332
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:353
+#: includes/customizer/class-wc-onhold-email-customizer.php:336
+msgid "Show shipping address"
+msgstr ""
+"Mostrar dirección de envío\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:349
+#: includes/customizer/class-wc-delivered-email-customizer.php:350
+#: includes/customizer/class-wc-email-customizer.php:400
+#: includes/customizer/class-wc-failure-email-customizer.php:349
+#: includes/customizer/class-wc-intransit-email-customizer.php:375
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:351
+#: includes/customizer/class-wc-returntosender-email-customizer.php:349
+#: includes/customizer/class-wc-onhold-email-customizer.php:375
+msgid "Google Analytics link tracking"
+msgstr ""
+"Seguimiento de enlaces de Google Analytics\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:350
+#: includes/customizer/class-wc-delivered-email-customizer.php:351
+#: includes/customizer/class-wc-failure-email-customizer.php:350
+#: includes/customizer/class-wc-intransit-email-customizer.php:376
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:352
+#: includes/customizer/class-wc-returntosender-email-customizer.php:350
+#: includes/customizer/class-wc-onhold-email-customizer.php:376
+msgid "This will be appended to URL in the email content"
+msgstr ""
+"Esto se agregará a la URL en el contenido del correo electrónico\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:372
+#: includes/customizer/class-wc-delivered-email-customizer.php:373
+#: includes/customizer/class-wc-email-customizer.php:289
+#: includes/customizer/class-wc-failure-email-customizer.php:372
+#: includes/customizer/class-wc-intransit-email-customizer.php:354
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:374
+#: includes/customizer/class-wc-returntosender-email-customizer.php:372
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:246
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:246
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:371
+#: includes/customizer/class-wc-onhold-email-customizer.php:354
+msgid "Email content"
+msgstr "Contenido de correo electronico"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:446
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:453
+#: includes/customizer/class-wc-delivered-email-customizer.php:448
+#: includes/customizer/class-wc-delivered-email-customizer.php:455
+#: includes/customizer/class-wc-email-customizer.php:454
+#: includes/customizer/class-wc-email-customizer.php:462
+#: includes/customizer/class-wc-failure-email-customizer.php:447
+#: includes/customizer/class-wc-failure-email-customizer.php:455
+#: includes/customizer/class-wc-intransit-email-customizer.php:451
+#: includes/customizer/class-wc-intransit-email-customizer.php:459
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:449
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:457
+#: includes/customizer/class-wc-returntosender-email-customizer.php:446
+#: includes/customizer/class-wc-returntosender-email-customizer.php:454
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:299
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:307
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:299
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:307
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:447
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:455
+#: includes/customizer/class-wc-onhold-email-customizer.php:451
+#: includes/customizer/class-wc-onhold-email-customizer.php:459
+msgid "Please select order to preview."
+msgstr ""
+"Por favor, seleccione el orden para obtener una vista previa.\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:124
+msgid "Your order #{order_number} has been delivered"
+msgstr ""
+"Su pedido n.º {número_orden} ha sido entregado\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:126
+#: includes/customizer/class-wc-email-customizer.php:132
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been Delivered."
+msgstr ""
+"Hola. pensamos que le gustaría saber que su pedido reciente de {site_title} "
+"ha sido Entregado.\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:158
+msgid "Delivered shipment status email"
+msgstr ""
+"Correo electrónico de estado de envío entregado\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:174
+msgid "Enable Delivered shipment status email"
+msgstr "Habilitar correo electrónico de estado de envío entregado"
+
+#: includes/customizer/class-wc-email-customizer.php:130
+#: includes/emails/class-shipment-delivered-email.php:94
+msgid "Your {site_title} order is now delivered"
+msgstr ""
+"Su orden de {site_title} ahora se entrega\n"
+
+#: includes/customizer/class-wc-email-customizer.php:179
+msgid "Enable Delivered order status email"
+msgstr ""
+"Habilitar correo electrónico de estado de pedido entregado\n"
+
+#: includes/customizer/class-wc-email-customizer.php:201
+#: includes/customizer/class-wc-tracking-info-customizer.php:189
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:181
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:181
+msgid "Please select a order..."
+msgstr ""
+"Por favor seleccione una orden ...\n"
+
+#: includes/customizer/class-wc-email-customizer.php:311
+msgid "Display tracking details"
+msgstr ""
+"Mostrar detalles de seguimiento\n"
+
+#: includes/customizer/class-wc-email-customizer.php:328
+msgid "Display order details"
+msgstr ""
+"Mostrar detalles del pedido\n"
+
+#: includes/customizer/class-wc-email-customizer.php:346
+msgid "Display Shipping Address"
+msgstr ""
+"Mostrar dirección de envío\n"
+
+#: includes/customizer/class-wc-email-customizer.php:364
+msgid "Display Billing Address"
+msgstr ""
+"Mostrar dirección de facturación\n"
+
+#: includes/customizer/class-wc-email-customizer.php:382
+msgid "Enable Google Analytics tracking"
+msgstr ""
+"Habilitar el seguimiento de Google Analytics\n"
+
+#: includes/customizer/class-wc-email-customizer.php:401
+msgid ""
+"This will be appended to URL in the email content – e.g. "
+"utm_source=ast&utm_medium=email&utm_campaign=delivered"
+msgstr ""
+"Esto se agregará a la URL en el contenido del correo electrónico, p. "
+"utm_source = ast & utm_medium = email & utm_campaign = entregado\n"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:123
+msgid "Your order #{order_number} is Failed Attempt"
+msgstr "Su pedido # {número_orden} es un intento fallido"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:125
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is Failed Attempt"
+msgstr ""
+"Hola. pensamos que le gustaría saber que su pedido reciente de {site_title} "
+"es un intento fallido"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:157
+msgid "Failed Attempt shipment status email"
+msgstr "Intento fallido del estado del envío por correo electrónico"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:173
+msgid "Enable Failed Attempt shipment status email"
+msgstr "Habilitar correo electrónico de estado de envío de intento fallido"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:126
+msgid "Your order #{order_number} is in transit"
+msgstr ""
+"Su pedido # {order_number} está en tránsito\n"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:128
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is in transit"
+msgstr ""
+"Hola. pensamos que te gustaría saber que tu pedido reciente de {site_title} "
+"está en tránsito\n"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:160
+msgid "In Transit shipment status email"
+msgstr ""
+"Correo electrónico de estado de envío en tránsito\n"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:176
+msgid "Enable In Transit shipment status email"
+msgstr ""
+"Habilitar correo electrónico de estado de envío en tránsito\n"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:125
+msgid "Your order #{order_number} is out for delivery"
+msgstr ""
+"Su pedido # {order_number} está listo para la entrega\n"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:127
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is out for delivery."
+msgstr ""
+"Hola. pensamos que le gustaría saber que su pedido reciente de {site_title} "
+"está listo para ser entregado.\n"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:159
+msgid "Out For Delivery shipment status email"
+msgstr ""
+"Fuera de entrega correo electrónico estado de envío\n"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:175
+msgid "Enable Out For Delivery shipment status email"
+msgstr "Habilitar el correo electrónico de estado de envío de entrega"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:123
+msgid "Your order #{order_number} has returned to sender"
+msgstr ""
+"Su pedido # {order_number} ha regresado al remitente\n"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:125
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been returned to sender."
+msgstr ""
+"Hola. pensamos que le gustaría saber que su pedido reciente de {site_title} "
+"ha sido devuelto al remitente.\n"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:157
+msgid "Return To Sender shipment status email"
+msgstr ""
+"Devolver al remitente correo electrónico del estado del envío\n"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:173
+msgid "Enable Return To Sender shipment status email"
+msgstr ""
+"Habilitar el correo electrónico de estado de envío de Devolución al remitente"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:145
+#: includes/customizer/class-wc-tracking-info-customizer.php:590
+#: templates/emails/tracking-info.php:265
+#: templates/myaccount/tracking-info.php:194
+msgid "Provider"
+msgstr "Proveedor"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:146
+#: includes/customizer/class-wc-tracking-info-customizer.php:613
+#: templates/emails/tracking-info.php:297
+#: templates/myaccount/tracking-info.php:224
+msgid "Tracking Number"
+msgstr "El número de rastreo"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:147
+#: includes/customizer/class-wc-tracking-info-customizer.php:635
+msgid "Shipped Date"
+msgstr "Fecha de envío"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:155
+msgid "Shipped on {ship_date} via {shipping_provider} - {tracking_number_link}"
+msgstr ""
+"Enviado el {ship_date} a través de {shipping_provider} - "
+"{tracking_number_link}"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:186
+msgid "Select an order to preview and design the tracking info display."
+msgstr ""
+"Seleccione un pedido para obtener una vista previa y diseñar la pantalla de "
+"información de seguimiento.\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:207
+#: includes/customizer/class-wc-tracking-info-customizer.php:210
+msgid "Tracking display layout"
+msgstr "Diseño de visualización de seguimiento"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:214
+msgid "Select Template"
+msgstr ""
+"Seleccionar plantilla\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:215
+msgid "Table Layout"
+msgstr ""
+"Diseño de mesa\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:232
+msgid "Tracking Display Position"
+msgstr "Seguimiento de la posición de visualización"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:236
+msgid "Before Order Details"
+msgstr "Antes de los detalles del pedido"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:237
+msgid "After Order Details"
+msgstr "Después de los detalles del pedido"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:253
+msgid "Hide Tracking Header"
+msgstr "Ocultar encabezado de seguimiento"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:271
+msgid "Tracking Header text"
+msgstr ""
+"Seguimiento del texto del encabezado\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:278
+msgid "Tracking Information"
+msgstr "Información de seguimiento"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:294
+msgid "Additional text after header"
+msgstr "Texto adicional después del encabezado"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:318
+msgid "Hide tracking information from order line items"
+msgstr "Ocultar información de seguimiento de las líneas de pedido"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:336
+msgid "Simple Layout Design"
+msgstr ""
+"Diseño de diseño simple\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:352
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:389
+#: includes/customizer/class-wc-tracking-info-customizer.php:863
+msgid "Content font size"
+msgstr ""
+"Tamaño de fuente de contenido\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:407
+#: includes/customizer/class-wc-tracking-info-customizer.php:846
+msgid "Content font color"
+msgstr ""
+"Color de fuente de contenido\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:424
+msgid "Show bottom border"
+msgstr ""
+"Mostrar borde inferior\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:442
+msgid "Bottom border color"
+msgstr ""
+"Color del borde inferior\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:461
+msgid "Table layout Design"
+msgstr ""
+"Diseño de diseño de mesa\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:477
+msgid "Display shipping provider name"
+msgstr ""
+"Mostrar nombre del proveedor de envío\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:495
+msgid "Display shipping provider image"
+msgstr ""
+"Mostrar imagen del proveedor de envío\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:513
+msgid "Hide the ship date"
+msgstr ""
+"Ocultar la fecha de envío\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:531
+msgid "Use tracking number as a link"
+msgstr ""
+"Use el número de seguimiento como un enlace\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:549
+msgid "Table Headers"
+msgstr ""
+"Encabezados de tabla\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:565
+msgid "Hide Table Headers"
+msgstr ""
+"Ocultar encabezados de tabla\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:583
+msgid "Provider header text"
+msgstr ""
+"Texto del encabezado del proveedor\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:606
+msgid "Tracking Number header text"
+msgstr ""
+"Texto del encabezado del número de seguimiento\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:628
+msgid "Ship date header text"
+msgstr ""
+"Texto de encabezado de fecha de envío\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:651
+msgid "Track Label"
+msgstr "Etiqueta de la pista"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:669
+msgid "Track header text"
+msgstr ""
+"Seguimiento del texto del encabezado\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:692
+msgid "Headers font size"
+msgstr ""
+"Tamaño de fuente de encabezado\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:710
+msgid "Headers font color"
+msgstr ""
+"Color de fuente de encabezados\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:727
+msgid "Table Content"
+msgstr ""
+"Contenido de la tabla\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:743
+msgid "Padding"
+msgstr ""
+"Relleno\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:764
+#: includes/customizer/class-wc-tracking-info-customizer.php:958
+msgid "Background color"
+msgstr ""
+"Color de fondo\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:781
+#: includes/views/admin_tracking_page_settings.php:73
+msgid "Border color"
+msgstr ""
+"Color del borde\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:798
+msgid "Border size"
+msgstr ""
+"Tamaño del borde\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:823
+msgid "Content Text align"
+msgstr ""
+"Alinear texto de contenido\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:881
+msgid "Content line height"
+msgstr ""
+"Altura de la línea de contenido\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:903
+msgid "Content font weight"
+msgstr ""
+"Peso de la fuente de contenido\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:926
+msgid "Tracking Link"
+msgstr ""
+"Enlace de seguimiento\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:941
+msgid "Font Color"
+msgstr ""
+"Color de fuente\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:974
+msgid "Border"
+msgstr "Frontera"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:1026
+msgid ""
+"To preview the tracking display, please add tracking information to at least "
+"one order and choose it in the preview order selection."
+msgstr ""
+"Para obtener una vista previa de la pantalla de seguimiento, agregue "
+"información de seguimiento al menos a un pedido y elíjala en la selección de "
+"vista previa del pedido.\n"
+
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:116
+msgid "Your {site_title} order is now partially shipped"
+msgstr ""
+"Su pedido de {site_title} ahora se envió parcialmente\n"
+
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:118
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been partially shipped."
+msgstr ""
+"Hola. pensamos que le gustaría saber que su pedido reciente de {site_title} "
+"ha sido enviado parcialmente.\n"
+
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:159
+msgid "Enable Partially Shipped order status email"
+msgstr ""
+"Habilitar correo electrónico de estado de pedido enviado parcialmente\n"
+
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:116
+msgid "Your {site_title} order is now updated tracking"
+msgstr ""
+"Tu pedido de {site_title} ahora está actualizado\n"
+
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:118
+msgid ""
+"Hi there. we thought you'd like to know that the shipment tracking for your "
+"recent order from {site_title} has been updated."
+msgstr ""
+"Hola. pensamos que le gustaría saber que el seguimiento de envío de su "
+"pedido reciente de {site_title} se ha actualizado.\n"
+
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:159
+msgid "Enable Updated Tracking order status email"
+msgstr ""
+"Habilite el correo electrónico actualizado del estado del pedido de "
+"seguimiento\n"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:126
+msgid "Late shipment for order #{order_number}"
+msgstr "Envío tardío para el pedido n.º {número_orden}"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:127
+msgid "Late shipment"
+msgstr "Envío tardío"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:128
+msgid "This shipment exceeded {shipment_length} days."
+msgstr "Este envío excedió los {shipping_length} días."
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:161
+msgid "Late Shipments admin email"
+msgstr "Correo electrónico de administrador de envíos tardíos"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:198
+msgid "Enable Late Shipments admin email"
+msgstr "Habilitar el correo electrónico de administrador de envíos tardíos"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:241
+msgid "E.g. {admin_email}, admin@example.org"
+msgstr "P.ej. {admin_email}, admin@example.org"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:126
+msgid "Your order #{order_number} is on hold"
+msgstr "Su pedido # {order_number} está en espera"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:128
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is on hold"
+msgstr ""
+"Hola. pensamos que le gustaría saber que su pedido reciente de {site_title} "
+"está en espera"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:160
+msgid "On Hold shipment status email"
+msgstr "Correo electrónico de estado de envío en espera"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:176
+msgid "Enable On Hold shipment status email"
+msgstr "Habilitar correo electrónico de estado de envío en espera"
+
+#: includes/emails/class-shipment-delivered-email.php:32
+msgid "Delivered order"
+msgstr ""
+"Pedido entregado\n"
+
+#: includes/emails/class-shipment-delivered-email.php:33
+msgid ""
+"Order delivered emails are sent to customers when their orders are marked "
+"delivered and usually indicate that their orders have been shipped."
+msgstr ""
+"Los correos electrónicos de pedidos entregados se envían a los clientes "
+"cuando sus pedidos están marcados como entregados y generalmente indican que "
+"sus pedidos han sido enviados.\n"
+
+#: includes/emails/class-shipment-delivered-email.php:298
+msgid "Click Here"
+msgstr ""
+"Haga clic aquí\n"
+
+#: includes/emails/class-shipment-delivered-email.php:299
+msgid "Edit in customizer"
+msgstr ""
+"Editar en el personalizador\n"
+
+#: includes/views/admin_options_bulk_upload.php:22
+msgid "Import tracking information from a CSV file"
+msgstr "Importar información de seguimiento desde un archivo CSV"
+
+#: includes/views/admin_options_bulk_upload.php:23
+msgid ""
+"This tool allows you to import tracking information to your orders from a "
+"CSV file."
+msgstr ""
+"Esta herramienta le permite importar información de seguimiento a sus "
+"pedidos desde un archivo CSV."
+
+#: includes/views/admin_options_bulk_upload.php:36
+msgid "Date Format for CSV import"
+msgstr "Formato de fecha para importación CSV"
+
+#: includes/views/admin_options_bulk_upload.php:50
+msgid ""
+"Replace tracking info if exists? (if not checked, the tracking info will be "
+"added)"
+msgstr ""
+"¿Reemplazar información de seguimiento si existe? (Si no se marca, se "
+"agregará la información de seguimiento)"
+
+#: includes/views/admin_options_bulk_upload.php:59
+msgid "Continue"
+msgstr "Seguir"
+
+#: includes/views/admin_options_bulk_upload.php:61
+msgid "Settings Saved."
+msgstr "Se guardó la configuración."
+
+#: includes/views/admin_options_bulk_upload.php:79
+msgid "Your tracking information are now being imported..."
+msgstr "Su información de seguimiento ahora se está importando ..."
+
+#: includes/views/admin_options_bulk_upload.php:85
+msgid "Upload Progress - "
+msgstr "Progreso de carga -"
+
+#: includes/views/admin_options_bulk_upload.php:94
+msgid "Upload again"
+msgstr "Subir de nuevo"
+
+#: includes/views/admin_options_bulk_upload.php:95
+msgid "View Orders"
+msgstr "Ver pedidos"
+
+#: includes/views/admin_options_bulk_upload.php:104
+msgid "Download sample csv"
+msgstr "Descargar muestra csv"
+
+#: includes/views/admin_options_bulk_upload.php:107
+#: includes/views/admin_trackship_dashboard.php:21
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/views/admin_options_settings.php:26
+#: includes/views/admin_options_settings.php:204
+#: includes/views/admin_trackship_dashboard.php:41
+#: includes/views/admin_tracking_page_settings.php:102
+#: includes/views/admin_tracking_page_settings.php:121
+msgid "Save Changes"
+msgstr ""
+"Guardar cambios\n"
+
+#: includes/views/admin_options_settings.php:42
+msgid "Tracking Info Display"
+msgstr ""
+"Pantalla de información de seguimiento\n"
+
+#: includes/views/admin_options_settings.php:51
+msgid ""
+"Use a customizer with a preview to customize the tracking info display on "
+"customer order emails and my-account."
+msgstr ""
+"Use un personalizador con una vista previa para personalizar la "
+"visualización de la información de seguimiento en los correos electrónicos "
+"de pedidos de clientes y mi cuenta."
+
+#: includes/views/admin_options_settings.php:52
+msgid "Launch Customizer"
+msgstr ""
+"Iniciar personalizador\n"
+
+#: includes/views/admin_options_settings.php:64
+msgid "Order Statuses"
+msgstr "Estados de pedido"
+
+#: includes/views/admin_options_settings.php:102
+#: includes/views/admin_options_settings.php:144
+#: includes/views/admin_options_settings.php:185
+msgid "Light Font"
+msgstr ""
+"Fuente de luz\n"
+
+#: includes/views/admin_options_settings.php:103
+#: includes/views/admin_options_settings.php:145
+#: includes/views/admin_options_settings.php:186
+msgid "Dark Font"
+msgstr ""
+"Fuente oscura\n"
+
+#: includes/views/admin_options_settings.php:107
+#: includes/views/admin_options_settings.php:149
+#: includes/views/admin_options_settings.php:190
+msgid "Send Email"
+msgstr ""
+"Enviar correo electrónico\n"
+
+#: includes/views/admin_options_shipping_provider.php:22
+#: includes/views/admin_options_addons.php:113
+#: includes/views/admin_options_addons.php:167
+msgid "Active"
+msgstr "Activa"
+
+#: includes/views/admin_options_shipping_provider.php:23
+msgid "Inactive"
+msgstr "Inactiva"
+
+#: includes/views/admin_options_shipping_provider.php:24
+msgid "Custom"
+msgstr ""
+"Personalizada(feminine)\n"
+
+#: includes/views/admin_options_shipping_provider.php:34
+msgid "Search by provider / country"
+msgstr ""
+"Búsqueda por proveedor / país\n"
+
+#: includes/views/admin_options_shipping_provider.php:47
+#, php-format
+msgid "You don't have any %s shipping providers."
+msgstr "No tiene ningún proveedor de envío% s."
+
+#: includes/views/admin_options_shipping_provider.php:52
+msgid "Add Custom Shipping Provider"
+msgstr "Añadir proveedor de envío personalizado"
+
+#: includes/views/admin_options_shipping_provider.php:59
+#: includes/views/admin_options_shipping_provider.php:96
+msgid "Shipping Country"
+msgstr ""
+"País de envío\n"
+
+#: includes/views/admin_options_shipping_provider.php:60
+#: includes/views/admin_options_shipping_provider.php:97
+msgid "Global"
+msgstr "Global"
+
+#: includes/views/admin_options_shipping_provider.php:70
+#: includes/views/admin_options_shipping_provider.php:107
+msgid "Upload"
+msgstr "Subir"
+
+#: includes/views/admin_options_shipping_provider.php:76
+#: includes/views/admin_options_shipping_provider.php:113
+msgid "How to add Tracking URL"
+msgstr ""
+"Cómo agregar URL de seguimiento\n"
+
+#: includes/views/admin_options_shipping_provider.php:89
+msgid "Edit Custom Shipping Provider"
+msgstr "Editar proveedor de envío personalizado"
+
+#: includes/views/admin_options_shipping_provider.php:127
+#: includes/views/admin_options_shipping_provider.php:138
+msgid "Sync Shipping Providers"
+msgstr ""
+"Proveedores de envío de sincronización\n"
+
+#: includes/views/admin_options_shipping_provider.php:128
+msgid ""
+"Syncing the shipping providers list add or updates the pre-set shipping "
+"providers and will not effect custom shipping providers."
+msgstr ""
+"La sincronización de la lista de proveedores de envío agrega o actualiza los "
+"proveedores de envío preestablecidos y no afectará a los proveedores de "
+"envío personalizados.\n"
+
+#: includes/views/admin_options_shipping_provider.php:130
+msgid "Providers Added"
+msgstr "Providers Added"
+
+#: includes/views/admin_options_shipping_provider.php:131
+msgid "Providers Updated"
+msgstr "Providers Updated"
+
+#: includes/views/admin_options_shipping_provider.php:132
+msgid "Providers Deleted"
+msgstr "Providers Deleted"
+
+#: includes/views/admin_options_shipping_provider.php:134
+msgid "Shipping providers database reset successfully."
+msgstr ""
+"La base de datos de los proveedores de envío se restableció correctamente."
+
+#: includes/views/admin_options_shipping_provider.php:136
+msgid ""
+"Reset providers database, it will reset all your shipping provider database"
+msgstr ""
+"Restablecer la base de datos de proveedores, restablecerá toda la base de "
+"datos de proveedores de envío"
+
+#: includes/views/admin_options_trackship_integration.php:17
+#: includes/views/admin_tracking_page_settings.php:8
+msgid "Tracking Page"
+msgstr "Página de seguimiento"
+
+#: includes/views/admin_options_trackship_integration.php:20
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: includes/views/admin_options_trackship_integration.php:23
+msgid "Tools"
+msgstr "Herramientas"
+
+#: includes/views/zorem_admin_sidebar.php:18
+#: includes/views/admin_options_addons.php:93
+#: includes/views/admin_options_addons.php:169
+#: includes/views/admin_options_addons.php:171
+msgid "Get This Add-on >"
+msgstr ""
+"Obtenga este complemento>\n"
+
+#: includes/views/zorem_admin_sidebar.php:26
+msgid "Upgrade to PRO"
+msgstr ""
+"Actualiza a PRO\n"
+
+#: includes/views/admin_options_tools.php:15
+msgid "Get Shipment Status"
+msgstr ""
+"Obtener estado de envío\n"
+
+#: includes/views/admin_options_tools.php:24
+msgid ""
+"You can send all your orders from the last 30 days to get shipment status "
+"from TrackShip:"
+msgstr ""
+"Puede enviar todos sus pedidos de los últimos 30 días para obtener el estado "
+"del envío desde TrackShip:\n"
+
+#: includes/views/admin_options_addons.php:21
+msgid "TrackShip"
+msgstr "TrackShip"
+
+#: includes/views/admin_options_addons.php:34
+msgid ""
+"You are now connected with TrackShip! TrackShip makes it effortless to "
+"automate your post shipping operations and get tracking and delivery status "
+"updates directly in the WooCommerce admin."
+msgstr ""
+"¡Ahora estás conectado con TrackShip! TrackShip hace que sea fácil "
+"automatizar sus operaciones posteriores al envío y obtener actualizaciones "
+"de seguimiento y estado de entrega directamente en el administrador de "
+"WooCommerce.\n"
+
+#: includes/views/admin_options_addons.php:37
+msgid ""
+"TracksShip is a premium shipment tracking API flatform that fully integrates "
+"with WooCommerce with the Advanced Shipment Tracking. TrackShip automates "
+"the order management workflows, reduces customer inquiries, reduces time "
+"spent on customer service, and improves the post-purchase experience and "
+"satisfaction of your customers."
+msgstr ""
+"TracksShip es una forma plana de API de seguimiento de envíos premium que se "
+"integra completamente con WooCommerce con el seguimiento de envío avanzado. "
+"TrackShip automatiza los flujos de trabajo de gestión de pedidos, reduce las "
+"consultas de los clientes, reduce el tiempo dedicado al servicio al cliente "
+"y mejora la experiencia posterior a la compra y la satisfacción de sus "
+"clientes.\n"
+
+#: includes/views/admin_options_addons.php:38
+msgid ""
+"You must have account TracksShip and connect your store in order to activate "
+"these advanced features:"
+msgstr ""
+"Debe tener la cuenta TracksShip y conectar su tienda para activar estas "
+"funciones avanzadas:\n"
+
+#: includes/views/admin_options_addons.php:47
+#: includes/views/admin_trackship_dashboard.php:9
+msgid "Connected"
+msgstr ""
+"Conectado\n"
+
+#: includes/views/admin_options_addons.php:52
+msgid "SIGNUP NOW"
+msgstr ""
+"REGÍSTRATE AHORA\n"
+
+#: includes/views/admin_options_addons.php:114
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: includes/views/admin_options_addons.php:116
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/views/admin_options_addons.php:154
+msgid ""
+"Keep your customers happy by offering automated SMS text messages with order "
+"updates via Twilio/Nexmo. Send SMS updates to customers when their order "
+"status is updated. You can also manually send SMS messages through the Edit "
+"Order screen."
+msgstr ""
+"Mantenga felices a sus clientes ofreciendo mensajes de texto SMS automáticos "
+"con actualizaciones de pedidos a través de Twilio / Nexmo. Envíe "
+"actualizaciones por SMS a los clientes cuando se actualice el estado de su "
+"pedido. También puede enviar mensajes SMS manualmente a través de la "
+"pantalla Editar pedido."
+
+#: includes/views/admin_trackship_dashboard.php:8
+msgid "TrackShip Connection Status"
+msgstr "Estado de conexión de TrackShip"
+
+#: includes/views/admin_trackship_dashboard.php:12
+msgid "Subscription Plan"
+msgstr "Plan de suscripción"
+
+#: includes/views/admin_trackship_dashboard.php:16
+msgid "Shipment Trackers Balance"
+msgstr "Balance de rastreadores de envío"
+
+#: includes/views/admin_trackship_dashboard.php:22
+msgid "TrackShip Dashboard"
+msgstr ""
+"Panel de TrackShip\n"
+
+#: includes/views/admin_tracking_page_settings.php:25
+msgid "Select Tracking Page"
+msgstr ""
+"Seleccionar página de seguimiento\n"
+
+#: includes/views/admin_tracking_page_settings.php:40
+msgid ""
+"Note - If you select a different page than the Shipment Tracking page, add "
+"the [wcast-track-order] shortcode to the selected page content."
+msgstr ""
+"Nota: si selecciona una página diferente a la página de Seguimiento de "
+"envíos, agregue el código corto [wcast-track-order] al contenido de la "
+"página seleccionada.\n"
+
+#: includes/views/admin_tracking_page_settings.php:40
+msgid "more info"
+msgstr ""
+"más información\n"
+
+#: includes/views/admin_tracking_page_settings.php:50
+msgid "Tracking Page Layout"
+msgstr ""
+"Diseño de página de seguimiento\n"
+
+#: includes/views/admin_tracking_page_settings.php:67
+msgid "Text Color"
+msgstr ""
+"Color de texto\n"
+
+#: includes/views/admin_tracking_page_settings.php:84
+msgid "Hide Shipping Provider Image"
+msgstr ""
+"Ocultar imagen de proveedor de envío\n"
+
+#: includes/views/admin_tracking_page_settings.php:89
+msgid "Hide tracking event details"
+msgstr ""
+"Ocultar detalles del evento de seguimiento\n"
+
+#: includes/views/admin_tracking_page_settings.php:94
+msgid "Remove TrackShip branding"
+msgstr ""
+"Eliminar la marca TrackShip\n"
+
+#: includes/views/admin_tracking_page_settings.php:110
+msgid "Preview"
+msgstr "Avance"
+
+#: includes/views/admin_status_notifications.php:4
+msgid "Shipment Status Notifications "
+msgstr "Notificaciones de estado de envío"
+
+#: includes/views/admin_status_notifications.php:38
+msgid ""
+"Carrier has accepted or picked up shipment from shipper. The shipment is on "
+"the way."
+msgstr ""
+"El transportista ha aceptado o recogido el envío del remitente. El envío "
+"está en camino."
+
+#: includes/views/admin_status_notifications.php:52
+msgid "The shipment is On Hold."
+msgstr "El envío está en espera."
+
+#: includes/views/admin_status_notifications.php:66
+msgid "Shipment is returned to sender"
+msgstr "El envío se devuelve al remitente"
+
+#: includes/views/admin_status_notifications.php:80
+msgid "The shipment is ready to pickup."
+msgstr "El envío está listo para ser recogido."
+
+#: includes/views/admin_status_notifications.php:93
+msgid "Carrier is about to deliver the shipment"
+msgstr "El transportista está a punto de entregar el envío."
+
+#: includes/views/admin_status_notifications.php:107
+msgid "The shipment was delivered successfully"
+msgstr "El envío fue entregado exitosamente"
+
+#: includes/views/admin_status_notifications.php:108
+msgid ""
+"You already have delivered email enabled, to enable this email you'll need "
+"to disable the order status delivered in settings."
+msgstr ""
+"Ya ha entregado el correo electrónico habilitado, para habilitar este correo "
+"electrónico deberá deshabilitar el estado del pedido entregado en la "
+"configuración."
+
+#: includes/views/admin_status_notifications.php:122
+msgid ""
+"Carrier attempted to deliver but failed, and usually leaves a notice and "
+"will try to deliver the package again."
+msgstr ""
+"El transportista intentó entregar pero falló, y generalmente deja un aviso e "
+"intentará entregar el paquete nuevamente."
+
+#: includes/views/admin_status_notifications.php:130
+msgid "Admin Notifications "
+msgstr "Notificaciones de administrador"
+
+#: includes/views/admin_status_notifications.php:143
+msgid ""
+"If a shipment reached the number of days that you define, and the shipment "
+"is not \"delivered\" or \"Returned to Sender\" than email will trigger"
+msgstr ""
+"Si un envío alcanzó el número de días que usted define, y el envío no se "
+"\"entrega\" o \"Devuelve al remitente\", se activará el correo electrónico"
+
+#: templates/emails/tracking-info.php:157
+#: templates/emails/plain/tracking-info.php:35
+#, php-format
+msgid "Shipment status changed to %s"
+msgstr "El estado del envío cambió a% s"
+
+#: templates/emails/tracking-info.php:290
+#: templates/myaccount/tracking-info.php:219
+msgid "Provider Name"
+msgstr ""
+"Nombre del proveedor\n"
+
+#. %s: Order ID.
+#: templates/emails/wcast-email-order-details.php:48
+#, php-format
+msgid "Order number: %s"
+msgstr "Número de pedido:% s"
+
+#: includes/api/v1/class-wc-advanced-shipment-tracking-rest-api-controller.php:382
+msgid "Cannot create existing order shipment tracking."
+msgstr ""
+"No se puede crear el seguimiento de envío de pedidos existente.\n"
+
+#: includes/api/v1/class-wc-advanced-shipment-tracking-rest-api-controller.php:391
+msgid "Invalid order ID."
+msgstr ""
+"ID de pedido no válido\n"
+
+#: includes/api/v1/class-wc-advanced-shipment-tracking-rest-api-controller.php:395
+msgid "Special character not allowd in tracking number"
+msgstr ""
+"Carácter especial no permitido en el número de seguimiento\n"

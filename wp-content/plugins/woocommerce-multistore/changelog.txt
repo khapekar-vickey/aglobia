@@ -1,0 +1,488 @@
+== Changelog ==
+
+= Release 3.0.5 =
+Released: 2020-02-28
+* Bugfix: Stock does not sync correctly for variable products managing stock at variation level
+* Bugfix: Some WooCommerce add-on hiding plugin's menu
+* Bugfix: Plugin settings resetting after upgrade
+* Bugfix: Removing a site and then adding it again does not disconnect the products that have alredy been synced
+* Bugfix: Fix a rare json_encoding issue while connecting sites
+* Feature: When a product is trashed from the main site, trash it from all child sites (if enabled in settings)
+* Feature: When an order is created from the backend, update stock across the network
+* Bugfix: When products are exported from a child store and then imported back into the master store to sync with the child stores, the products are not correctly linked due to having duplicate metadata
+
+= Release 3.0.4 =
+Released: 2020-01-24
+* Bugfix: tags from master not being synced, when tags with similar names exist in the child
+* Bugfix: categories from master not being synced, when categories with similar names exist in the child
+* Bugfix: variations do not sync when variations use different slugs on the child sites
+* Bugfix: stock sync failing when initiated by the child
+* Bugfix: option to select whether to sync metadata created by 3rd party plugins
+* Bugfix: when updating products using quick edit, products are not being  marked for syncing correctly
+* Bugfix: correctly sync shipping class for product and variations
+* Bugfix: conflict with WooCommerce Admin
+* Feature: API added to check versions on child sites
+* Bugfix: some minor bug fixes
+
+= Release 3.0.3 =
+Released: 2020-01-20
+* Single Site: Updated network order interface. Now all child orders can be managed from the master site.
+* Bugfix: Price being synced despite being disabled. 
+* Bugfix: Some minor bug fixes
+
+= Release 3.0.2 =
+Released: 2020-01-12
+* Settings added to enable or disable the synchoronization of product thumbnail
+* Settings added to enable or disable the synchoronization of product images
+* Bugfix: Not reading authentication headers correctly on servers behind a reverse proxy
+* Bugfix: Product synchronization failing on Nginx servers
+* Bugfix: Hide a minor PHP e-notice error on child sites
+* Bugfix: Subdirectory being removed from URL when WordPress is installed in a subdirectory
+* Bugfix: Some minor bug fixes
+
+= Release 3.0.1 =
+Released: 2020-01-03
+* Single Site: Correctly sync product type for all products
+* Single Site: Sync upsell and cross-sell products
+* Single Site: Sync grouped products
+* Single Site: Hide master site orders from the network orders tab as these orders can already be viewed from the orders tab
+* Single Site: Minor bug fixes
+
+= Release 3.0.0 =
+Released: 2019-12-31
+* A non-multisite version of the plugin for regular WordPress installations
+
+= Release 2.1.1 =
+Released: 2019-09-03
+* Added support for grouped product synchronization
+* Added support for the synchronization of upsell and cross-sell products (Needs to be enabled in network admin settings panel)
+* Show SKU in WooCommerce network product list
+* Sync Coupons across the network (Needs to be enabled in network admin settings panel)
+* Support for large number of stores. Now the plugin can be used to sync products across hundreds of sites without server timeout issue. 
+* Shop name in bold in the bulk editor
+* Append version number to asset URL to for cache busting purpose 
+* Bugfix: When sync in progress, opening another page on the site would corrupt sync
+* Bugfix: Server timeout issue after products have synced
+* Many small improvements
+
+= Release 2.1.0 =
+Released: 2019-08-01
+* Improved Product synchronization process based on AJAX
+* Added a new hook that is fired after slave product has been updated
+* Bug fix: when deleting all parent tags at once, child tags are not being deleted
+* Bug fix for showing deleted products as linked products in the network admin area
+* Replace all HTTP links with HTTPS links pointing to our documentation
+* Bug fix for sync settings becoming unchecked when cancelling a product
+* Search by WooCommerce order ID
+* Catch error when master product has been deleted and the detached child product is being synced
+* Filter added to show parent product only on bulk editor
+* Plugin communicates over HTTPS with licensing server
+
+= Release 2.0.18 =
+Released: 2019-05-31
+* Added message when activating the license.
+* Added product import error message.
+* Added Warning when WooCommerce is not active.
+* After the activation error message, redirect the user to the plugins list page.
+* Added options to enable/disable product attributes sync.
+* Added option to Enable/Disable Syncing of Advanced Purchase Notes.
+* Added options to enable/disable URL (slug) sync.
+* Added search by SKU on the Network Admin Product page.
+* Added option to chose several specific stores to export in the order export page.
+* Updated Error Message on Activation.
+* Fix. Product tags Stop Syncing if it’s been deleted from the child store.
+* Fix. Product Image Stop Syncing if it’s been deleted from the child store.
+* Fix. Product categories Stop Syncing if it’s been deleted from the child store.
+* Fix. Repair cache on plugin update.
+* Fix. Variable Product Not Syncing When Using Product Editor.
+* Fix. Error While Trashing Products.
+* Fix. Settings showing no stores, network product showing products or list of sites.
+* Fix. Special characters bug when exporting orders from the order export page.
+
+= Release 2.0.16 =
+Released: 2019-05-08
+* Fix. Removed duplicate drop-down menu in bulk edit.
+
+= Release 2.0.15 =
+Released: 2019-05-07
+* Syncing attributes.
+* Fix. Deactivating sync upon saving a product using Woocommerce’s functions.
+* Fix. Redirecting to SSL by default without checking protocol.
+* Fix. Running data updater before activating license causes access denied.
+* Fix. Products loose sync when a new comment is created.
+* Fix. Products loose sync when updating a product via the woocmmerce rest api.
+* Fix. “Publish to” option gets unticked when a product is sold on the main website.
+
+= Release 2.0.14 =
+Released: 2019-04-14
+* Disable deactivated sites from republish/syncing.
+
+= Release 2.0.13 =
+Released: 2019-04-08
+* Remove store ID when a store is deleted.
+
+= Release 2.0.12 =
+Released: 2019-04-01
+* New option. Search global order list.
+* New global option – Republish tags – Yes or No.
+* If web host collation issue, See the count of products on network admin dashboard, but not the products. Fix.
+* Support for PHP 7.3, Clean up the code.
+
+= Release 2.0.11 =
+Released: 2019-03-22
+* New option. Select what columns to display in the global order list.
+* New global option – Republish reviews – Yes or No.
+* Display products on the network admin dashboard on servers with collation issues.
+
+= Release 2.0.10 =
+Released: 2019-03-04
+* Fix. A product loses sync when an order is made under certain conditions on the parent product site.
+
+= Release 2.0.9 =
+Released: 2019-03-02
+* Fix. Attribute not republished if deleted.
+
+= Release 2.0.8 =
+Released: 2019-02-28
+* Added images to the plugins page.
+* Fix. Customer account, viewing orders from all stores.
+
+= Release 2.0.7 =
+Released: 2019-02-05
+* Order export to CSV/XLM improvement.
+* New option. Option to not republish the product “short description”.
+* Store tabs on the global plugin options page.
+* Fix. Stock sync from child store when setting is NO.
+* Fix. Error when editing a product that is “previewed”.
+
+= Release 2.0.6 =
+Released: 2019-01-14
+* Added plugin option. Child product inherits category image and description changes.
+* Improved bulk distribution from the products quick edit, moved all bulk distribution to the quick edit page.
+* Fix. Issues when republishing product in Pending status.
+* Fix. Network products page. Products are removed only from the first blog.
+* Fix. The quick edit only displays the categories for the parent product.
+* Fix. Double entry of blog names in the network products page.
+* Fix. No distribution when displaying a child store in network products page.
+
+= Release 2.0.5 =
+Released: 2018-12-13
+* Fix. Cant bulk distribute products from page 2 on the network products page.
+* Added link to the network products page in the WordPress menu.
+* Fix. A child product with variations don’t display when sort by price.
+
+= Release 2.0.4 =
+Released: 2018-11-28
+* Fix. Unsync products on order status changes.
+
+= Release 2.0.3 =
+Released: 2018-11-15
+* Fix. Possible to republish child products in quick edit bulk distribution.
+* Fix. Event should be triggered only on product delete.
+* Fix. Products are not displayed on the main network products page.
+* Clear cache before product republishing.
+* Product loses its metadata sync with the parent product
+* Possible to make a child product a parent product when the parent product is deleted.
+
+= Release 2.0.2 =
+Released: 2018-11-02
+* Fix. Stock not updated at other child sites
+
+= Release 2.0.1 =
+Released: 2018-10-31
+* Fix. The plugin updater stops.
+* Fix. Products for all stores are not displayed on the main products page.
+* Fix. Bulk products distribution on Network Products page.
+
+= Release 2.0 =
+Released: 2018-10-29
+* Major overall update, server usage optimization.
+* Fix. Heavy load fix.
+
+= Release 1.9.7 =
+Released: 2018-06-30
+* New option, option to not inherit variations
+* Server resource usage improvement.
+* Fix. Hebrew language in the order export file.
+* Make it optional to display info from all stores in a user account.
+
+= Release 1.9.6 =
+Released: 2018-05-25
+* Added plugin option to not sync product description across stores.
+* Fix. Network Product page fields are not displayed when bulk edit.
+
+= Release 1.9.5 =
+Released: 2018-05-21
+* Fix. Checkboxes should stay enabled in the Multistore tab
+
+= Release 1.9.4 =
+Released: 2018-05-18
+* Display user info/orders from all stores in the user account regardless what store the user is logged in to.
+
+= Release 1.9.3 =
+Released: 2018-05-10
+* Fix. Set get_site limit to 999.
+
+= Release 1.9.2 =
+Released: 2018-05-09
+* Fix. Network order action buttons don’t work.
+
+= Release 1.9.1 =
+Released: 2018-04-13
+* Remove the republishing of the number of reviews.
+* Fix. Update “orders per page” number on the network orders page.
+* Fix. Remove child product “Uncategorized” category on parent product is created or updated.
+
+= Release 1.9.0 =
+Released: 2018-03-12
+* Add handling imports
+* Style the network order view as the individual WooCommerce order screen
+* Introduce Woo filters for product updates to catch changes which may be caused by other plugins or themes that modify products or stock levels.
+* Refactor `WOO_MSTORE_functions::woocommerce_reduce_order_stock`, adding a helper function for re-usability of stock management.
+* Fix – Show titles in the network admin product listing
+
+= Release 1.8.8 =
+Released: 2017-11-15
+* JavaScript error fix: WooCommerce quick edit undefined
+
+= Release 1.8.7 =
+Released: 2017-06-19
+* Fields control for categories
+
+= Release 1.8.6 =
+Released: 2017-06-16
+* Use stripslashes for terms when compare with existing to avoid wrong comparison when include quotes
+
+= Release 1.8.5 =
+Released: 2017-06-15
+* Add _price to meta fields ignore if “Child product inherit price changes” is set to No
+* $ignore_meta_fields adjustments, ignoring for new products
+
+= Release 1.8.4 =
+Released: 2017-06-09
+* Implement anonymous object filter replacement
+* Fix – Child product inherit Parent changes – Fields control – Price fix
+
+= Release 1.8.3 =
+Released: 2017-06-01
+* Use trailingslashit for term names when compare and create to avoid chars strip out
+
+= Release 1.8.2 =
+Released: 2017-05-29
+* Set the latest version to plugin option to ensure the latest tag is being used along the code
+* Fix: Setup Wizard notices
+* Fix: Setup Wizard processing complete JavaScript engine
+
+= Release 1.8.1 =
+Released: 2017-05-24
+* Fix: Child product inherit Parent changes – Price ignore
+
+= Release 1.8.0 =
+Released: 2017-05-24
+* Fix: Sequential order number listing
+
+= Release 1.7.9 =
+Released: 2017-05-19
+* “Toggle all Sites” trigger for quick edit, bulk edit, bulk distribution
+
+= Release 1.7.8 =
+Released: 2017-05-18
+* Remove check for plugin being active on a site since it’s network active now.
+* Use include_once instead include to avoid fatal error for classes already defined
+* Check for $WOO_MSTORE class if already initialized
+
+= Release 1.7.7 =
+Released: 2017-05-06
+* Replaced the WC()->plugin_url() with dynamic URL to ensure no fatal is being triggered when class not available.
+* Fix: Using $this when not in object context when calling is_plugin_active()
+
+= Release 1.7.6 =
+Released: 2017-05-05
+* Fix WOO_MSTORE_VERSION not being used the latest tag version
+
+= Release 1.7.5 =
+Released: 2017-05-02
+* Required to be activated through network admin interface
+* Ignore any site where WooCommerce is not active
+
+= Release 1.7.3 =
+Released: 2017-05-01
+* Fix checkbox for trash
+
+= Release 1.7.2 =
+Released: 2017-04-13
+* Improve bulk distribution functionality
+
+= Release 1.7 =
+Released: 2017-04-07
+* WooCommerce 3.0 Compatibility
+* Ensure attributes terms are not checked for parent_id since they are not hierarchical. This maintains compatibility with older data structure without break.
+* Updated export engine for WooCommerce 3.0 compatibility
+* Updated PHPExcel to 1.8.1
+
+= Release 1.6.4 =
+Released: 2017-03-17
+* Fix: Network Products quick and bulk edit
+
+= Release 1.6.3 =
+Released: 2017-03-16
+* Collation unify for tables when using Union
+* Fix – Illegal mix of collations for operation ‘UNION’ for query
+
+= Release 1.6.2 =
+Released: 2017-03-08
+* Network Products – sort by Date
+
+= Release 1.6.1 =
+Released: 2017-03-02
+* Fix: Fixed Update Box notice keep showing after update complete.
+
+= Release 1.6 =
+Released: 2017-02-28
+* Child product inherit title changes / Child product inherit price changes setting for each blog
+* Allow meta fields ignore
+
+= Release 1.5.9 =
+Released: 2017-02-23
+* Case insensitive comparison when check for existing term name
+* Stock synchronize functionality when using in-line/AJAX Variation save
+* Child product inherit Parent changes functionality when using in-line(AJAX) Variation update
+
+= Release 1.5.7 =
+Released: 2017-02-19
+* Compare against _woonet_child_inherit_updates too for stock synchronization
+
+= Release 1.5.5 =
+Released: 2017-02-11
+* Fix: Term re-name update on child product too
+
+= Release 1.5.4 =
+Released: 2017-02-08
+* Fix : Undefined variable: _woonet_child_stock_synchronize
+* Fix: save_post_product unused filter remove
+
+= Release 1.5.3 =
+Released: 2017-02-06
+* Fix: Quick editing a product attribute:trigger a JavaScript error.
+
+= Release 1.5.2 =
+Released: 2017-02-06
+* Fix – before_delete_post restore default blog_id before method exit
+* Fix – delete child product variations
+
+= Release 1.5.1 =
+Released: 2017-02-04
+* Fix variations synchronize
+* Updater engine to run certain routines at specific code versions for updating data.
+
+= Release 1.5 =
+Released: 2017-01-18
+* Fix: Term name comparison using (string) and trim to avoid issues when term names include empty spaces
+
+= Release 1.4.9 =
+Released: 2017-01-09
+* fix – $columnshidden option set as default array if empty
+
+= Release 1.4.8 =
+Released: 2016-11-15
+* UTF8 Encoding fix for Orders export
+
+= Release 1.4.7 =
+Released: 2016-11-14
+* Taxonomies terms mapping array, switch to old format accessing instead direct (current)
+* Orders Export functionality, in CSV and XLS
+– Orders Export – Date Range
+– Orders Export – Site Filtering
+– Orders Export – Order Status
+
+= Release 1.4.5 =
+Released: 2016-11-03
+* Stock network update when changing on child product and “Always maintain stock synchronization” setting set to Yes.
+
+= Release 1.4.4 =
+Released: 2016-10-25
+* Fix – Category structure migration to child product
+
+= Release 1.4.3 =
+Released: 2016-10-04
+* Fix: Large taxonomy terms hierarchy replicate for child products.
+
+= Release 1.4.2 =
+Released: 2016-08-25
+* Create Image Mapping when publish to other blogs to prevent re-processing on product update.
+* New setting – Minimum user role to allow MultiStore Publish.
+
+= Release 1.3.9.2 =
+Released: 2016-08-18
+* WordPress 4.6 compatibility updates Fix Notice: wp_get_sites is deprecated since version 4.6.0! Use get_sites() instead
+
+= Release 1.3.9 =
+Released: 2016-08-11
+* Always maintain stock synchronization for re-published products.
+* Update – Stock synchronization only trigger when WooCommerce Manage Stock option is available for the site where main product is published.
+* Stock synchronize for every child product Reference stock is parsed from main product.
+* _woonet_title fix, heading are not being saved as custom fields.
+* Hide MultiSite Publish To options when using Bulk edit and at least one product is child of a tree.
+* PO language file update Text change for warning message.
+
+= Release 1.3.8 =
+Released: 2016-08-08
+* Adding categories in network product listing.
+* Add warning when unassign a product from the tree Unassigned product is reinstate if the site is being checked again on main product Unassigned product can be set a master product.
+
+= Release 1.3.6 =
+Released: 2016-07-26
+* Fix for Database tables prefix replaced with base_prefix.
+
+= Release 1.3.5 =
+Released: 2016-07-18
+* FIx: Sequential Order Number increase fix across network.
+
+= Release 1.3.5 =
+Released: 2016-07-01
+* Update Short Description and Comment Status for all child products witch inherit the master product changes.
+
+= Release 1.3.3 =
+Released: 2016-06-07
+* Plugin option for Mainitain stock synchronization for re-published products, when checkout.
+* Fox meta data to be saved and include empty (zero) value.
+
+= Release 1.3.1 =
+Released: 2016-05-30
+* Sequential order numbers.
+* Code and DB Updater Engine.
+* Add settings infrastructure; sequential Order Numbers.
+
+= Release 1.2.6 =
+Released: 2016-04-07
+* Add bulk editor and inline editor within superadmin WooCommerce Products interface.
+
+= Release 1.2.5 =
+Released: 2016-04-01
+* Add Multisite Options within Quick Edit.
+
+= Release 1.2.4 =
+Released: 2016-02-19
+* Updated translation po file.
+* Network Orders admin icons link fix (mark completed, mark processing).
+* On Admin Main Product – Toggle all Sites.
+* Fix: Products duplicated item within dashboard menu.
+
+= Release 1.1.9 =
+Released: 2016-02-13
+* Globall setting within main product to allow all child to inherit updates or not _woonet_child_products_inherit_updates Post status change also modify the childs if update inherit Post trash / untrash if update inherit.
+
+= Release 1.1.8 =
+Released: 2016-02-11
+* wp_get_sites limit increase to 999 sites.
+
+= Release 1.1.7 =
+Released: 2016-01-25
+* Fix: The title and description of products in children stores are not updated even if the checkbox is checked in the children store.
+
+= Release 1.1.6 =
+Released: 2016-01-20
+* Update wizard to add required meta for products, to match the required format.
+
+
+[See changelog on our site](https://woomultistore.com/changelog-2/).

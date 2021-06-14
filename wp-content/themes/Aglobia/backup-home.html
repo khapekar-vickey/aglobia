@@ -1,0 +1,32 @@
+<div class="category-listing">
+ <div class="category-wrapper">
+   
+   <?php
+     $parentid = get_queried_object_id();
+       $args = array(
+           'parent' => $parentid
+       );
+       $terms = get_terms( 'product_cat', $args );
+       //print_r($terms);
+       if ( $terms ) {
+             foreach ( $terms as $term ) {
+                 $taxonomy = $term->taxonomy;
+           $term_id = $term->term_id;
+           $foto = get_field( 'cat_icon', $term_id );
+           $foto = get_field( 'cat_icon', $taxonomy . '_' . $term_id );
+           echo '<div class="cat-item">';            
+                     //woocommerce_subcategory_thumbnail( $term );
+                     echo '<a href="' .  esc_url( get_term_link( $term ) ) . '" class="' . $term->slug . '">';
+                     if( get_field('cat_icon', $taxonomy . '_' . $term_id) ) {
+               echo '<div class="cat-icon"><img src="' . $foto . '"/></div>';
+             }
+           echo "<span class='home-press-swiper-text'>$term->name</span>";
+                     echo '</a>';                                  
+                 echo '</div>';
+           }
+           
+       }
+   ?>
+   
+ </div>
+</div>
